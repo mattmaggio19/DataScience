@@ -1,0 +1,17 @@
+import sys
+
+print(sys.path)
+
+import numpy
+
+print(numpy.ones(5))
+
+import Testpk2 as Testpk
+
+print Testpk.Add(5, 7)
+
+print Testpk.SomeFun.Add(5, 7)
+
+print Testpk.Subpk.Add(5, 7)
+
+print Testpk.Subpk.SomeFun2.Add(5, 7)
